@@ -35,6 +35,7 @@ export function Context({ children }) {
 
     try {
       setIsLoading(true);
+      setShouldRenderButton(false);
       setImages([]);
       setCurrentPage(1);
       setSelectedImage({});
